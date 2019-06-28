@@ -1,7 +1,7 @@
 package oop;
 
 public class BankAccountApp {
-
+	
 	public static void main(String[] args) {
 		// Creating a new bank account >> think instantiate an object
 		
@@ -11,9 +11,9 @@ public class BankAccountApp {
 		acc1.balance = 10000;
 		
 		acc1.deposit(1500);
-		acc1.depost(1500);
+		//acc1.depost(1500);
 		acc1.deposit(1500);
-		acc1.withdraw(2000);
+		//acc1.withdraw(2000);
 		
 		
 		System.out.println(acc1.toString());
@@ -40,5 +40,5 @@ public class BankAccountApp {
 		
 
 	}
+} 
 
-}
