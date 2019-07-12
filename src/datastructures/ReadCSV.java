@@ -12,7 +12,7 @@ public class ReadCSV {
 	public static void main(String[] args) {
 		// This method will read data from a CSV file
 		List<String[]> data = new ArrayList<String[]>();
-		String filename = "/Users/hashmatullah.noorzai/eclipse-workspace/javatraining/files/account.csv";
+		String filename = "/Users/ihashmatullah/eclipse-workspace/javatraining/files/account.csv";
 		String dataRow;
 		try {
 			// Open the file
